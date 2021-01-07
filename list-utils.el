@@ -366,7 +366,7 @@ Modifies LIST and returns the modified value."
      list)
     (t
      list)))
-(define-obsolete-function-alias 'list-utils-make-proper 'list-utils-make-proper-inplace)
+(define-obsolete-function-alias 'list-utils-make-proper 'list-utils-make-proper-inplace "28.0.50")
 
 ;;;###autoload
 (defun list-utils-make-improper-copy (list &optional tree recur-internal)
