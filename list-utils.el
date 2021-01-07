@@ -425,7 +425,7 @@ Modifies LIST and returns the modified value."
      list)
     (t
      list)))
-(define-obsolete-function-alias 'list-utils-make-improper 'list-utils-make-improper-inplace)
+(define-obsolete-function-alias 'list-utils-make-improper 'list-utils-make-improper-inplace "28.0.50")
 
 ;;;###autoload
 (defun list-utils-linear-subseq (list &optional cycle-length)
